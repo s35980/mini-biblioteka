@@ -5,5 +5,11 @@ public class Main {
         harryPotter.wypiszInfo();
         harryPotter.wypozycz();
         harryPotter.zwroc();
+
+        Czytelnik janKowalaski = new Czytelnik("Jan", "Kowalski", 376, 2);
+
+        janKowalaski.wypiszDane();
+        janKowalaski.zwiekszLiczbeWypozyczen();
+        janKowalaski.zmiejszLiczbeWypozyczen();
     }
 }
