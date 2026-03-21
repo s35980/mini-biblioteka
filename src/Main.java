@@ -11,5 +11,11 @@ public class Main {
         janKowalaski.wypiszDane();
         janKowalaski.zwiekszLiczbeWypozyczen();
         janKowalaski.zmiejszLiczbeWypozyczen();
+
+        Czytelnik jakubNowak = new Czytelnik("Jakub", "Nowak", 478, 3);
+
+        jakubNowak.wypiszDane();
+        jakubNowak.zwiekszLiczbeWypozyczen();
+        jakubNowak.zmiejszLiczbeWypozyczen();
     }
 }
