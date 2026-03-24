@@ -45,4 +45,12 @@ public class Ksiazka {
             System.out.println("Okej");
         }
     }
+
+    public String getTytul() {
+        return this.tytul;
+    }
+
+    public boolean getDostepna() {
+        return this.dostepna;
+    }
 }
